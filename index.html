@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(253, 243, 243);
+        }
+        .card:hover{
+            background-color: white;
+            border-color: white;
+            border: 10px;
+        }
+        .Box{
+            
+            display: inline-block;
+        }
+
+        .off{
+            font-size: 30px;
+            position: absolute;
+            color: white;
+            background-color: rgba(218, 43,16, 0.6);
+            bottom: 20px;
+            left: 10px
+        }
+
+        .image{
+            position: relative;
+        }
+
+        .card{
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: 10px solid rgb(253, 243 , 243);
+        }
+        .img{
+            width: 233px;
+            height: 233px;
+            border-radius: 20px;
+            
+        }
+
+        .Resturent{
+          position: relative;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          
+        }
+        .Resturent-name{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .rating{
+            background-color: green;
+            height: 20px;
+            padding: 3px;  
+            position: absolute;
+            right: 5px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .food,.place{
+            position: relative;
+            font-size: 15px;
+            color: rgb(88, 88, 88);
+        }
+        .price{
+            position: absolute;
+            right: 5px;
+        }
+
+        .location{
+            position: relative;
+        }
+        .Distance{
+            position: absolute;
+            right: 5px;
+            font-weight: bold;
+        }
+
+        /* .header{
+            width: 100vw;
+            height: 50vh;
+            background-color: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+
+        } */
+
+        .header {
+            width: 100vw; 
+            height: 30vh; 
+            background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"); /* Corrected property */
+            background-size: cover; /* Ensures the image covers the entire div */
+            background-position: center; /* Centers the image within the div */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            position: relative;
+       }
+
+       h1{
+        position: absolute;
+        color: white;
+        margin-left: 20%;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Get the App </h1>
+        <nav class="navbar">
+           <!-- <ul>
+            <li>Home</li>
+            <li>AboutUs</li>
+            <li>Contact</li>
+            <li>Sign Up</li>
+            <li>Login</li>
+           </ul> -->
+        </nav>
+
+    </div>
+
+    <!-- <img class="header" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt=""> -->
+
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="./Rest.avif" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>The Darzi Bar </p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/reviews_photos/32b/f7e1b0d26196b452179c16f4901e232b_1559990769.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Blunch cafe</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/9/2749/fe08508615ec09fc7a7067cdde8aacb5.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Coba</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/2/21063142/e2e684c33102a4c17b13bcb5bfe32edc.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Cafe cairo</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.5km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/7/20057817/2f09573d380c5a12511da422b3448099.jpeg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Peepal </p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.3*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>Europial Italian </p>
+        </div>
+
+        <div class="price Box">
+            <p>₹1800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/5/4905/c4ac19751c805b921870bcc04e855cf7.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 50% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Olly kitchen</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>south Indian </p>
+        </div>
+
+        <div class="price Box">
+            <p>42800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Cafe beveralign-self-start</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.8km</p>
+        </div>
+    </div>
+
+    </div>
+    
+
+
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="./Rest.avif" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>The Darzi Bar </p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/reviews_photos/32b/f7e1b0d26196b452179c16f4901e232b_1559990769.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Blunch cafe</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/9/2749/fe08508615ec09fc7a7067cdde8aacb5.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Coba</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/2/21063142/e2e684c33102a4c17b13bcb5bfe32edc.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Cafe cairo</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>North Indian , Chinese</p>
+        </div>
+
+        <div class="price Box">
+            <p>₹2800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.5km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/7/20057817/2f09573d380c5a12511da422b3448099.jpeg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 25% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Peepal </p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.3*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>Europial Italian </p>
+        </div>
+
+        <div class="price Box">
+            <p>₹1800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Middle Circle, CP</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.4km</p>
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="card">
+        <!-- image  -->
+
+   <div class="image">
+    <img src="https://b.zmtcdn.com/data/pictures/5/4905/c4ac19751c805b921870bcc04e855cf7.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="img" alt="">
+    <p class="off">Flat 50% OFF</p>
+   </div>
+    <!-- resturent home -->
+    <div class="Resturent">
+        <div class="Resturent-name Box">
+            <p>Olly kitchen</p>
+        </div>
+
+        <div class="rating Box">
+            <p>4.2*</p>
+        </div>
+    </div>
+    <!-- food ki information  -->
+    <div class="food">
+        <div class="food_name Box">
+            <p>south Indian </p>
+        </div>
+
+        <div class="price Box">
+            <p>42800 for two </p>
+        </div>
+    </div>
+    <!-- location  -->
+    <div class="location">
+        <div class="place Box">
+            <p>Cafe beveralign-self-start</p>
+        </div>
+
+        <div class="Distance Box">
+            <p>1.8km</p>
+        </div>
+    </div>
+
+    </div>
+    
+
+
+    
+    
+   
+</body>
+</html>
